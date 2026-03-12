@@ -1,4 +1,4 @@
-![가스센서의 역사 4](../assets/images/posts/gas-sensor-history-004.jpg)
+![가스센서의 역사 4](../assets/images/posts/gas-sensor-history-004.webp)
 
 # [가스센서의 역사 4] 디지털 시대의 가스센서, NDIR와 스마트 검지 시스템
 
