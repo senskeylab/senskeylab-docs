@@ -1,6 +1,3 @@
-
-- [홈페이지 바로가기](https://senskeylab.com)
-  
 - [처음으로](/)
 
 - **센서 제품군 (Products)**
