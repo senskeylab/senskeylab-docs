@@ -6,5 +6,29 @@
     "date": "2026-03-12",
     "url": "https://docs.senskeylab.com/#/electrochemical/overview",
     "icon": "🧪"
+  },
+  {
+    "title": "가연성 가스 센서 개요",
+    "category": "제품 설명",
+    "summary": "메탄, LPG 등 가연성 가스 감지를 위한 센서 방식과 적용 시 고려사항을 정리합니다.",
+    "date": "2026-03-13",
+    "url": "https://docs.senskeylab.com/#/combustible/overview",
+    "icon": "🔥"
+  },
+  {
+    "title": "촉매 연소식 vs 반도체식 센서 비교",
+    "category": "기술 인사이트",
+    "summary": "두 센서 방식의 원리, 장단점, 비용과 적용성을 비교하여 선택 기준을 정리합니다.",
+    "date": "2026-03-14",
+    "url": "https://docs.senskeylab.com/#/insights/catalytic-vs-semiconductor",
+    "icon": "💡"
+  },
+  {
+    "title": "UART / I2C 통신 프로토콜 가이드",
+    "category": "기술 인사이트",
+    "summary": "센서 모듈 연동 시 자주 사용하는 UART와 I2C 인터페이스의 특징과 구현 포인트를 설명합니다.",
+    "date": "2026-03-15",
+    "url": "https://docs.senskeylab.com/#/integration/uart-i2c",
+    "icon": "🔌"
   }
 ]
