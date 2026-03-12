@@ -1,0 +1,18 @@
+[
+  {
+    "title": "전기화학식 가스 센서 개요",
+    "category": "제품 설명",
+    "description": "CO, H₂S 등 독성 가스 감지에 특화된 전기화학식 센서의 동작 원리와 특성을 설명합니다.",
+    "url": "https://docs.senskeylab.com/#/electrochemical/overview",
+    "date": "2026-03-12",
+    "icon": "⚗️"
+  },
+  {
+    "title": "촉매 연소식 vs 반도체식 센서 비교",
+    "category": "기술 인사이트",
+    "description": "두 방식의 원리, 장단점, 비용 비교를 통해 최적의 센서 방식을 안내합니다.",
+    "url": "https://docs.senskeylab.com/#/combustible/comparison",
+    "date": "2026-03-10",
+    "icon": "🔥"
+  }
+]
