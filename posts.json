@@ -67,5 +67,13 @@
     "url": "https://docs.senskeylab.com/#/insights/gas-sensor-history-004",
     "featured": true
   }
-  
+  const cardHtml = `
+  <article class="insight-card">
+    <a href="${post.url}" target="_blank" rel="noopener">
+      <img src="${post.thumbnail}" alt="${post.title}">
+      <h3>${post.title}</h3>
+      <p>${post.summary}</p>
+    </a>
+  </article>
+`;
 ]
