@@ -1,5 +1,5 @@
 <div style="width:100%;margin-bottom:32px;border-radius:12px;overflow:hidden;">
-  <img src="/assets/images/posts/gas-sensor-history-004.webp"
+  <img src="/assets/images/posts/gas-sensor-history-004.jpg"
        alt="가스센서의 역사 4"
        style="width:100%;height:auto;display:block;">
 </div>
