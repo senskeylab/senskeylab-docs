@@ -6,6 +6,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
 </head>
+  <script>
+  // 전체 문서 목록 페이지 플러그인
+  window.$docsify.plugins = [].concat(window.$docsify.plugins || [], function(hook) {
+    hook.doneEach(function() {
+      var app = document.getElementById('docs-list-app');
+      if (!app) return;
+
+      app.innerHTML = '<p style="color:#aaa;text-align:center;padding:40px">문서를 불러오는 중...</p>';
+
+      fetch('https://docs.senskeylab.com/index.json')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var categories = ['전체'].concat([...new Set(data.map(function(d){ return d.category; }))]);
+
+          var filterHtml = categories.map(function(cat) {
+            return '<button onclick="dlFilter(this,\'' + cat + '\')" style="padding:7px 16px;border:1.5px solid #1A6EBD;border-radius:20px;background:' + (cat==='전체'?'#1A6EBD':'#fff') + ';color:' + (cat==='전체'?'#fff':'#1A6EBD') + ';font-size:13px;cursor:pointer;margin:0 4px 8px 0">' + cat + '</button>';
+          }).join('');
+
+          function renderCards(list) {
+            var countEl = document.getElementById('dl-count');
+            var gridEl  = document.getElementById('dl-grid');
+            if (countEl) countEl.innerHTML = '총 <b style="color:#1A6EBD">' + list.length + '</b>개 문서';
+            if (!gridEl) return;
+            gridEl.innerHTML = list.map(function(item) {
+              var thumb = item.thumbnail
+                ? '<img src="'+item.thumbnail+'" style="width:110px;height:100%;object-fit:cover;display:block" loading="lazy">'
+                : '<div style="width:110px;min-width:110px;background:linear-gradient(135deg,#eef4ff,#dce8ff);display:flex;align-items:center;justify-content:center;font-size:28px">'+(item.icon||'📄')+'</div>';
+              return '<a href="'+item.url+'" target="_blank" style="display:flex;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;text-decoration:none;color:inherit;background:#fff;margin-bottom:16px;transition:box-shadow 0.2s" onmouseover="this.style.boxShadow=\'0 6px 20px rgba(0,0,0,0.1)\'" onmouseout="this.style.boxShadow=\'none\'">'
+                + thumb
+                + '<div style="padding:14px 16px;flex:1;min-width:0">'
+                + '<div style="font-size:10px;font-weight:700;letter-spacing:1.5px;color:#1A6EBD;margin-bottom:5px;text-transform:uppercase">'+item.category+'</div>'
+                + '<div style="font-size:14px;font-weight:700;color:#0f172a;line-height:1.45;margin-bottom:6px">'+item.title+'</div>'
+                + '<div style="font-size:12px;color:#64748b;line-height:1.6;margin-bottom:8px">'+(item.summary||item.description||'')+'</div>'
+                + '<div style="font-size:11px;color:#94a3b8;display:flex;justify-content:space-between"><span>'+(item.date||'')+'</span><span style="color:#1A6EBD;font-weight:700">보기 →</span></div>'
+                + '</div></a>';
+            }).join('');
+          }
+
+          window._dlAllDocs = data;
+          window.dlFilter = function(btn, category) {
+            document.querySelectorAll('[onclick^="dlFilter"]').forEach(function(b) {
+              b.style.background = '#fff'; b.style.color = '#1A6EBD';
+            });
+            btn.style.background = '#1A6EBD'; btn.style.color = '#fff';
+            var filtered = category === '전체' ? data : data.filter(function(d){ return d.category === category; });
+            renderCards(filtered);
+          };
+
+          app.innerHTML =
+            '<div style="margin-bottom:20px"><h2 style="font-size:24px;font-weight:700;color:#0f172a;margin:0 0 6px">📋 전체 문서 목록</h2>'
+            + '<p style="color:#64748b;font-size:14px;margin:0">senskeylab 기술 문서 및 인사이트 전체 목록</p></div>'
+            + '<div style="margin-bottom:20px">' + filterHtml + '</div>'
+            + '<div id="dl-count" style="font-size:13px;color:#94a3b8;margin-bottom:16px"></div>'
+            + '<div id="dl-grid"></div>';
+
+          renderCards(data);
+        })
+        .catch(function() {
+          app.innerHTML = '<p style="color:#aaa;text-align:center;padding:40px">문서를 불러올 수 없습니다.</p>';
+        });
+    });
+  });
+</script>
 <body>
   <div id="app"></div>
   <script>
