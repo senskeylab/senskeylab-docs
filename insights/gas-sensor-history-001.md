@@ -2,12 +2,7 @@
   <img src="/assets/images/posts/gas-sensor-history-001.jpg"
        alt="가스센서의 역사 1"
        style="width:100%;height:auto;display:block;">
-</div><div style="width:100%;margin-bottom:32px;border-radius:12px;overflow:hidden;">
-  <img src="/assets/images/posts/gas-sensor-history-001.jpg"
-       alt="가스센서의 역사 1 - 보이지 않는 위험과 광산의 카나리아"
-       style="width:100%;height:auto;display:block;">
 </div>
-
 # [가스센서의 역사 1] 보이지 않는 암살자와 광산의 카나리아 🐦
 
 우리는 매일 숨을 쉬며 살아갑니다. 그런데 만약 우리가 들이마시는 공기 속에 형체도, 색도, 냄새도 없는 치명적인 위험이 숨어 있다면 어떨까요?
