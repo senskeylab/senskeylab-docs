@@ -1,41 +1,36 @@
 <!DOCTYPE html>
 <html>
 <style>
-  /* 네비게이션 간격 축소 */
   .app-nav {
     font-size: 13px;
-    padding: 6px 0;
+    padding: 4px 0;
+  }
+
+  .app-nav > ul {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
   }
 
   .app-nav a {
-    margin: 0 6px;
+    margin: 0 4px;
+    padding: 0 4px;
     white-space: nowrap;
   }
 
-  /* 모바일 추가 축소 */
   @media screen and (max-width: 768px) {
     .app-nav {
-      font-size: 12px;
-      padding: 4px 0;
-      right: 4px;
+      font-size: 11.5px;
+      right: 2px;
     }
 
     .app-nav a {
-      margin: 0 4px;
+      margin: 0 2px;
+      padding: 0 2px;
     }
   }
-
-  /* 아주 작은 화면 */
-  @media screen and (max-width: 480px) {
-    .app-nav {
-      font-size: 11px;
-    }
-
-    .app-nav a {
-      margin: 0 3px;
-    }
-  }
-</style>  
+</style> 
 <head>
   <meta charset="UTF-8">
   <title>senskeylab Docs</title>
