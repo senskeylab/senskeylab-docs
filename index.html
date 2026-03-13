@@ -1,5 +1,22 @@
 <!DOCTYPE html>
 <html>
+<style>
+  /* 네비게이션 폰트 축소 */
+  .app-nav {
+    font-size: 13px;
+  }
+  .app-nav a {
+    margin: 0 8px;
+    white-space: nowrap;
+  }
+
+  /* 모바일에서 네비게이션 숨김 — 사이드바로 대체 */
+  @media screen and (max-width: 768px) {
+    .app-nav {
+      display: none !important;
+    }
+  }
+</style>  
 <head>
   <meta charset="UTF-8">
   <title>senskeylab Docs</title>
