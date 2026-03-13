@@ -1,3 +1,8 @@
+<div style="width:100%;margin-bottom:32px;border-radius:12px;overflow:hidden;">
+  <img src="/assets/images/posts/gas-sensor-history-002.jpg"
+       alt="가스센서의 역사 2"
+       style="width:100%;height:auto;display:block;">
+</div>
 [가스센서의 역사 2] 불꽃에서 센서로, 가연성 가스 검지의 시작
 
 광산과 산업 현장에서 가장 두려운 위험 중 하나는 가연성 가스의 폭발이었습니다. 사람의 감각이나 불꽃의 변화에 의존하던 시대를 지나면서, 산업계는 더 정밀하고 반복 가능한 가스 검지 방법을 요구하게 되었습니다.
