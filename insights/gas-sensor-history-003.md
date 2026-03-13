@@ -1,3 +1,8 @@
+<div style="width:100%;margin-bottom:32px;border-radius:12px;overflow:hidden;">
+  <img src="/assets/images/posts/gas-sensor-history-003.jpg"
+       alt="가스센서의 역사 3"
+       style="width:100%;height:auto;display:block;">
+</div>
 [가스센서의 역사 3] 독성 가스 검지의 진화, 전기화학식과 반도체식 센서
 
 가연성 가스 검지가 폭발 사고를 막기 위한 기술이었다면, 독성 가스 검지는 작업자의 건강과 생명을 지키기 위한 기술이었습니다.
