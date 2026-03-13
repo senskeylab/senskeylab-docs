@@ -1,5 +1,5 @@
 - [처음으로](/)
-- [📋 전체 문서 목록](/docs-list)
+- [📋 전체 문서 목록](https://docs.senskeylab.com/docs-list.html)
 
 **센서 제품군 (Products)**
 - [전기화학식 가스 센서](/electrochemical/overview)
