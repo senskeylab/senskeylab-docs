@@ -1,3 +1,8 @@
+<div style="width:100%;margin-bottom:32px;border-radius:12px;overflow:hidden;">
+  <img src="/assets/images/posts/gas-sensor-history-001.jpg"
+       alt="가스센서의 역사 1"
+       style="width:100%;height:auto;display:block;">
+</div>
 [가스센서의 역사 1] 보이지 않는 위험과 광산의 카나리아
 
 공기 중의 위험 가스는 대부분 눈에 보이지 않고, 냄새로도 항상 구분할 수 있는 것이 아닙니다. 오늘날에는 전자식 가스센서가 이러한 위험을 실시간으로 감지하지만, 과거 산업 현장과 광산에서는 그런 장비가 존재하지 않았습니다.
