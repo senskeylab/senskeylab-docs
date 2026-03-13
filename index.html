@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html>
 <style>
-  /* 네비게이션 폰트 축소 */
+  /* 네비게이션 간격 축소 */
   .app-nav {
     font-size: 13px;
+    padding: 6px 0;
   }
+
   .app-nav a {
-    margin: 0 8px;
+    margin: 0 6px;
     white-space: nowrap;
   }
 
-  /* 모바일에서 네비게이션 숨김 — 사이드바로 대체 */
+  /* 모바일 추가 축소 */
   @media screen and (max-width: 768px) {
     .app-nav {
-      display: none !important;
+      font-size: 12px;
+      padding: 4px 0;
+      right: 4px;
+    }
+
+    .app-nav a {
+      margin: 0 4px;
+    }
+  }
+
+  /* 아주 작은 화면 */
+  @media screen and (max-width: 480px) {
+    .app-nav {
+      font-size: 11px;
+    }
+
+    .app-nav a {
+      margin: 0 3px;
     }
   }
 </style>  
