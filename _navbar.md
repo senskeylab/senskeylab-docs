@@ -1,5 +1,4 @@
 * [Home](https://senskeylab.com)
 * [About](https://senskeylab.com/about)
 * [Services](https://senskeylab.com/services)
-* [Insights](https://senskeylab.com/insights)
 * [Contact](https://senskeylab.com/contact)
