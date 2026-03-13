@@ -2,17 +2,69 @@
   {
     "title": "전기화학식 가스 센서 개요",
     "category": "제품 설명",
-    "description": "CO, H₂S 등 독성 가스 감지에 특화된 전기화학식 센서의 동작 원리와 특성을 설명합니다.",
-    "url": "https://docs.senskeylab.com/#/electrochemical/overview",
+    "summary": "CO, H2S 등 독성 가스 감지에 특화된 전기화학식 센서의 동작 원리와 특징을 설명합니다.",
     "date": "2026-03-12",
-    "icon": "⚗️"
+    "url": "https://docs.senskeylab.com/#/electrochemical/overview",
+    "icon": "🧪"
+  },
+  {
+    "title": "가연성 가스 센서 개요",
+    "category": "제품 설명",
+    "summary": "메탄, LPG 등 가연성 가스 감지를 위한 센서 방식과 적용 시 고려사항을 정리합니다.",
+    "date": "2026-03-13",
+    "url": "https://docs.senskeylab.com/#/combustible/overview",
+    "icon": "🔥"
   },
   {
     "title": "촉매 연소식 vs 반도체식 센서 비교",
     "category": "기술 인사이트",
-    "description": "두 방식의 원리, 장단점, 비용 비교를 통해 최적의 센서 방식을 안내합니다.",
-    "url": "https://docs.senskeylab.com/#/combustible/comparison",
-    "date": "2026-03-10",
-    "icon": "🔥"
+    "summary": "두 센서 방식의 원리, 장단점, 비용과 적용성을 비교하여 선택 기준을 정리합니다.",
+    "date": "2026-03-14",
+    "url": "https://docs.senskeylab.com/#/insights/catalytic-vs-semiconductor",
+    "icon": "💡"
+  },
+  {
+    "title": "UART / I2C 통신 프로토콜 가이드",
+    "category": "기술 인사이트",
+    "summary": "센서 모듈 연동 시 자주 사용하는 UART와 I2C 인터페이스의 특징과 구현 포인트를 설명합니다.",
+    "date": "2026-03-15",
+    "url": "https://docs.senskeylab.com/#/integration/uart-i2c",
+    "icon": "🔌"
+  },
+  {
+    "title": "가스센서의 역사 1 - 보이지 않는 위험과 광산의 카나리아",
+    "date": "2026-03-12",
+    "category": "기술 인사이트",
+    "summary": "전자식 가스센서가 없던 시절, 광산 현장에서 카나리아와 안전등이 어떻게 위험 가스를 알리는 역할을 했는지 살펴봅니다.",
+    "thumbnail": "https://docs.senskeylab.com/assets/images/posts/gas-sensor-history-001.jpg",
+    "url": "https://docs.senskeylab.com/#/insights/gas-sensor-history-001",
+    "featured": true
+  },
+  {
+    "title": "가스센서의 역사 2 - 불꽃에서 센서로, 가연성 가스 검지의 시작",
+    "date": "2026-03-13",
+    "category": "기술 인사이트",
+    "summary": "광산과 산업 현장에서 가연성 가스 검지가 어떻게 정량적 계측 기술로 발전했는지, 촉매연소식 센서의 등장을 중심으로 정리합니다.",
+    "thumbnail": "https://docs.senskeylab.com/assets/images/posts/gas-sensor-history-002.jpg",
+    "url": "https://docs.senskeylab.com/#/insights/gas-sensor-history-002",
+    "featured": true
+  },
+  {
+    "title": "가스센서의 역사 3 - 독성 가스 검지의 진화, 전기화학식과 반도체식 센서",
+    "date": "2026-03-14",
+    "category": "기술 인사이트",
+    "summary": "독성 가스와 산소 측정을 위해 발전한 전기화학식 센서와 반도체식 센서의 흐름, 그리고 적용 분야의 확장을 정리합니다.",
+    "thumbnail": "https://docs.senskeylab.com/assets/images/posts/gas-sensor-history-003.jpg",
+    "url": "https://docs.senskeylab.com/#/insights/gas-sensor-history-003",
+    "featured": true
+  },
+  {
+    "title": "가스센서의 역사 4 - 디지털 시대의 가스센서, NDIR와 스마트 검지 시스템",
+    "date": "2026-03-15",
+    "category": "기술 인사이트",
+    "summary": "NDIR, 복합가스 검지기, 디지털 통신 기반 센서 시스템으로 이어지는 현대 가스검지 기술의 확장 흐름을 살펴봅니다.",
+    "thumbnail": "https://docs.senskeylab.com/assets/images/posts/gas-sensor-history-004.webp",
+    "url": "https://docs.senskeylab.com/#/insights/gas-sensor-history-004",
+    "featured": true
   }
 ]
