@@ -10,6 +10,7 @@
 - [가스센서의 역사 2](/insights/gas-sensor-history/gas-sensor-history-002)
 - [가스센서의 역사 3](/insights/gas-sensor-history/gas-sensor-history-003)
 - [가스센서의 역사 4](/insights/gas-sensor-history/gas-sensor-history-004)
+- [촉매 연소식 vs 반도체식 비교](/insights/catalytic-vs-semiconductor)
 
 **개발 가이드 (Integration)**
 - [UART / I2C 통신 프로토콜](/integration/uart-i2c)
